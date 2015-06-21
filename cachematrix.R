@@ -1,4 +1,3 @@
-
 #                ABOUT cachematrix.R
 #cachematrix.R has two functions (makeCacheMatrix, cacheSolve) that
 #work together in order to determine if the user inputted information 
