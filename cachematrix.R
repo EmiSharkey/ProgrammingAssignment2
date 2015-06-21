@@ -57,15 +57,14 @@ cacheSolve <- function(x, ...) {
                 ##returns the resulting value of the matrix_inverse
                 return(matrix_inverse)
         } else {
-                ##User input is used to get the inverse 
-                ##matrix using the solve function
+                ##matrix_inverse is equal to solve(x$get())
                 matrix_inverse <- solve(x$get())
                 
-                ##matrix_inverse is processed through the 
-                ##setmatrix_inverse function
+                #setmatrix_inverse is stored within x$setmatrix_inverse()
+                #function
                 x$setmatrix_inverse(matrix_inverse)
                 
-                ##returns the resulting value of the matrix_inverse
+                #matrix_inverse is returned
                 return(matrix_inverse)
         }
 }
